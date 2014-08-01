@@ -42,7 +42,7 @@ class blogLogopostPlugin extends blogPlugin {
         }
     }
 
-    public function blogDelete($post) {
+    public function postDelete($post) {
         $image_path = wa()->getDataPath('plugins/logopost/images/', 'blog');
         $name = $post['image'];
         if ($name && file_exists($image_path . $name)) {

@@ -22,7 +22,7 @@ return array(
     ),
     'handlers' => array(
         'backend_post_edit' => 'backendPostEdit',
-        'blog_delete' => 'blogDelete',
+        'post_delete' => 'postDelete',
         'prepare_posts_backend' => 'preparePostsBackend',
         'prepare_posts_frontend' => 'preparePostsFrontend',
     ),
